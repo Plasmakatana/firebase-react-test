@@ -14,18 +14,65 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1c1c1c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f788a2;
+  padding: 10px;
 }
-
+.nameinput:hover{
+  scale: 1.1;
+}
+.emailinput:hover{
+  scale: 1.1;
+}
+.submit:hover{
+  scale: 1.1;
+}
+.delete:hover{
+  scale: 1.1;
+}
+.list{
+  list-style-type:none;
+}
+.delete{
+  background-color: #1c1c1c;
+  color: #f788a2;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #f788a2;
+}
+.nameinput{
+  background-color: #1c1c1c;
+  color: #f788a2;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #f788a2;
+}
+.emailinput{
+  background-color: #1c1c1c;
+  color: #f788a2;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #f788a2;
+}
+.submit{
+  background-color: #1c1c1c;
+  color: #f788a2;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #f788a2;
+}
 .App-link {
-  color: #61dafb;
+  color: #f788a2;
 }
 
 @keyframes App-logo-spin {
